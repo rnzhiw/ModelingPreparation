@@ -106,7 +106,7 @@ if __name__ == '__main__':
 
     my_som.cluster(5)
     my_som.draw_cluster_map()
-    print my_som.get_label()[:10]
-    print Counter(my_som.get_label())
+    print (my_som.get_label()[:10])
+    print (Counter(my_som.get_label()))
 
     my_som.predict(np.array(df.iloc[0]))

@@ -60,11 +60,11 @@ class Tree:
 
     def display_node(self, node, depth):
         if node.left == None:
-            print "%slabel：%s" % ((depth - 1) *'\t|---' + '', node.label_value)
+            print ("%slabel：%s" % ((depth - 1) *'\t|---' + '', node.label_value))
         else:
-            print "%sfeature: %s, value: %s" % (depth * '\t' + '|---', node.left.feature, node.left.feature_value)
+            print ("%sfeature: %s, value: %s" % (depth * '\t' + '|---', node.left.feature, node.left.feature_value))
             self.display_node(node.left,depth+1)
-            print "%sfeature: %s, value: %s" % (depth * '\t' +'|---', node.right.feature, node.right.feature_value)
+            print ("%sfeature: %s, value: %s" % (depth * '\t' +'|---', node.right.feature, node.right.feature_value))
             self.display_node(node.right,depth+1)
 
 

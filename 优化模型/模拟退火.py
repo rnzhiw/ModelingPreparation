@@ -35,12 +35,12 @@ while T > T_threshold:
 def exeTime(func):
     def newFunc(*args, **args2):
         t0 = time.time()
-        print "%s, {%s} start" % (time.strftime("%X", time.localtime()), func.__name__)
-        print '-------------------  begin  ------------------------'
+        print ("%s, {%s} start" % (time.strftime("%X", time.localtime()), func.__name__))
+        print ('-------------------  begin  ------------------------')
         back = func(*args, **args2)
-        print '--------------------  end  -------------------------'
-        print "%s, {%s} end" % (time.strftime("%X", time.localtime()), func.__name__)
-        print "%.8fs taken for {%s}" % (time.time() - t0, func.__name__)
+        print ('--------------------  end  -------------------------')
+        print ("%s, {%s} end" % (time.strftime("%X", time.localtime()), func.__name__))
+        print ("%.8fs taken for {%s}" % (time.time() - t0, func.__name__))
         return back
 
     return newFunc
@@ -92,4 +92,4 @@ class SimulatedAnnealing:
 if __name__ == '__main__':
     sa = SimulatedAnnealing('')
     x = sa.begin()
-    print x, sa.func(x)
+    print (x, sa.func(x))

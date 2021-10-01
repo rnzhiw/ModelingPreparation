@@ -2,7 +2,7 @@
 import numpy as np
 import random
 import copy
-from simulated_annealing import exeTime
+from 模拟退火 import exeTime
 import matplotlib.pyplot as plt
 
 
