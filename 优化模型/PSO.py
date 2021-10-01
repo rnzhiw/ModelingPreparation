@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
     r_2  :  [0,1]之间的随机数
 
 
-ref: http://blog.csdn.net/chen_jp/article/details/7947059
+ref: 
      http://blog.csdn.net/kunshanyuz/article/details/63683145
 
 """
@@ -96,7 +96,7 @@ class PSO():
     def pso_begin(self):
         for i in range(1000):
             self.update_particle()
-            print "最优粒子位置：%s, 最优值：%s" % (self.optimal_position, self.optimal_value)
+            print ("最优粒子位置：%s, 最优值：%s" % (self.optimal_position, self.optimal_value))
 
 
 if __name__ == '__main__':
