@@ -5,8 +5,7 @@ import math
 
 """
 ref:
-    http://www.cnblogs.com/heaad/archive/2010/12/23/1914725.html
-    http://blog.csdn.net/czrzchao/article/details/52314455
+    比较通俗易懂
     http://blog.csdn.net/u010451580/article/details/51178225
 
     求解tsp问题
@@ -118,7 +117,7 @@ class GeneticAlgorithm:
             # self.gene_pop()
 
             result = self.get_best_gene()
-            print len(self.genes), result[0].bin2dec(), result[1]
+            print (len(self.genes), result[0].bin2dec(), result[1])
 
 
 
