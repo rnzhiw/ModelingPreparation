@@ -25,6 +25,8 @@
 * 其他
   * 马尔科夫链蒙特卡洛方法
   * 方差分析
+* 其他博客整理的
+  * https://blog.csdn.net/weixin_43327597/article/details/109712388
 
 
 
