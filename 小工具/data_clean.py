@@ -17,6 +17,9 @@
     - 去无效值                   No Need
     - 关联性验证                 No Need
 
+    https://zhuanlan.zhihu.com/p/60241672
+
+
 """
 
 import sklearn.preprocessing as sp
